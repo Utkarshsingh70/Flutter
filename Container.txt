@@ -1,0 +1,31 @@
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext conyext) {
+    return Center(
+    child: Container(
+      alignment: Alignment.bottomLeft,
+      color: Colors.green,
+      width: 50,
+      height: 50,
+      margin: EdgeInsets.all(15.0),
+      child: Text(
+        "Option 1",
+        textDirection: TextDirection.ltr,
+        style: TextStyle(color: Colors.deepPurple, fontSize: 30.0),
+      ),
+    ),
+     /* child: Container(
+      alignment: Alignment.bottomRight,
+      color: Colors.green,
+      width: 50,
+      height: 50,
+      margin: EdgeInsets.all(15.0),
+      child: Text(
+        "Option 1",
+        textDirection: TextDirection.ltr,
+        style: TextStyle(color: Colors.deepPurple, fontSize: 30.0),
+      ),
+    ),*/
+    ); 
+    }
+}

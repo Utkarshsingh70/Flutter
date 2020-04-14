@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+import './file_one/Matemethod.dart';
+void main() => runApp(First());
+
+class First extends StatelessWidget {
+  @override
+  Widget build(BuildContext conyext) {
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: "My first App",
+        home: Scaffold(
+            appBar: AppBar(
+              title: Text("My App"),
+            ),
+            body: Matemethod(),
+        ));
+  }
+}
